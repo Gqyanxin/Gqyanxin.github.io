@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring Boot 消息队列 ActiveMQ 入门
+title: Spring Cloud 消息队列 ActiveMQ 入门
 category: CSS
 tags: [css]
 ---
