@@ -10,6 +10,7 @@ menu: Bookmark
 - [Gson](https://github.com/google/gson) - Google Library to support JSON
 - [Xstream](http://x-stream.github.io/index.html) -  Serialize objects to XML and back again
 - [JAXB](https://jaxb.java.net/) - Java Architecture for XML Binding
+- [Hutool](https://www.hutool.cn/) - A set of tools that keep Java sweet.
 
 ## Android
 - [Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader) - Powerful and flexible library for loading, caching and displaying images
