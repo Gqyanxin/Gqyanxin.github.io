@@ -15,6 +15,18 @@ menu: Bookmark
 - [Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader) - Powerful and flexible library for loading, caching and displaying images
 - [greenDAO](http://greendao-orm.com/) - greenDAO is a light and fast ORM solution that maps objects to SQLite databases
 - [EventBus](http://greenrobot.github.io/EventBus/) - Android optimized event bus that simplifies communication
+- [Transitions-Everywhere](https://github.com/andkulikov/Transitions-Everywhere) - Backport of Android Transitions API for animations
+- [Battery Historian](https://github.com/google/battery-historian) - Analyze battery consumers using Android "bugreport" files
+- [Facebook Rebound](http://facebook.github.io/rebound/) - Spring Animations for Android
+- [Dagger](http://google.github.io/dagger/) - Dagger is a fully static, compile-time dependency injection framework for both Java and Android
+- [Retrofit](http://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java
+- [OkHttp](http://square.github.io/okhttp/) - An HTTP & HTTP/2 client for Android and Java applications
+- [Butter Knife](http://jakewharton.github.io/butterknife/) - Annotate fields with @BindView and a view ID for Butter Knife to find and automatically cast the corresponding view in your layout.
+- [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) - Powerful & easy to use chart library for Android
+- [Robolectric](http://robolectric.org/) - Unit test framework
+
+## IOS
+- [Popping](https://github.com/schneiderandre/popping) - A collection of animation examples for iOS apps.
 
 ## PHP
 - [Idiorm](https://github.com/j4mie/idiorm/) - A lightweight nearly-zero-config object-relational mapper and fluent query builder for PHP5
@@ -72,6 +84,7 @@ menu: Bookmark
 
 ## Color
 - [Minimalist-Color-Palettes](https://www.behance.net/gallery/32154055/Minimalist-Color-Palettes-2015) - Minimalist Color Palettes
+- [Flatuiculors](http://flatuicolors.com/)
 
 ## Tool
 - [ProcessOn](https://www.processon.com/) - UML web app for team (Chinese)
@@ -82,3 +95,6 @@ menu: Bookmark
 - [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) - GitHub Practical Tips
 - [Git Quick Reference](http://jonas.nitro.dk/git/quick-reference.html) - Git Quick Reference
 - [HTTP API Design Guide](https://geemus.gitbooks.io/http-api-design/content/en/index.html) - HTTP+JSON API design practices
+
+## Websites
+- [HTML5 Up](https://html5up.net/) - Site Template

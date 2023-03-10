@@ -6,22 +6,22 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Yummy Theme # ex. I m Chuan
-name: Your Name # ex. DONGChuan
-email: my_email_address@lalala.com
-location: My location # ex. Nice, France
-company: MyCompany
-company_url: my_company_website
-github_url: my_github_url # ex. https://github.com/DONGChuan
-github_username: # ex. DONGChuan
-description: description_of_your_web_site
+title: I m Yanxin !
+name: Yanxin
+email: gqyanxin@gmail.com
+location: Chengdu, China
+company: Cowinhealth
+company_url: http://www.cowinhealth.com/
+github_url: https://github.com/Gqyanxin
+#github_username: # ex. DONGChuan
+description: This is personnel website of Yanxin
 favicon: favicon.png # Image must be in assets/images
-repository: github_username/github_username.github.io # ex. DONGChuan/DONGChuan.github.io
+#repository: github_username/github_username.github.io # ex. DONGChuan/DONGChuan.github.io
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: http://localhost:4000
+url: http://Gqyanxin.github.io
 
 ## Gem
 gems:
@@ -48,7 +48,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+disque: httpgqyanxingithubio.disqus.com
 
 # Pagination
 paginate: 10
@@ -71,10 +71,6 @@ navs:
   -
     href: /bookmark
     label: Bookmark
-
-  -
-    href: /about
-    label: About
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show
