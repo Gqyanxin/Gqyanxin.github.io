@@ -1207,7 +1207,7 @@ public class Demo03ProducerTest {
 
 - 我们可以看到，两个线程在消费 `"QUEUE_DEMO_09"` 下的消息。
 
-此时，如果我们使用 [ActiveMQ Web Console](https://activemq.apache.org/web-console) 来查看 `"QUEUE_DEMO_03"` 的消费者列表：![ActiveMQ-消费者列表](https://github.com/Gqyanxin/Gqyanxin.github.io/blob/main/assets/images/activemq/ActiveMQ-消费者列表.png)
+此时，如果我们使用 [ActiveMQ Web Console](https://activemq.apache.org/web-console) 来查看 `"QUEUE_DEMO_03"` 的消费者列表：![ActiveMQ-消费者列表](https://github.com/Gqyanxin/Gqyanxin.github.io/raw/main/assets/images/activemq/ActiveMQ-消费者列表.png)
 
 # 7. 顺序消息
 
@@ -1628,7 +1628,7 @@ org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Liste
 
 - Consumer 重试消费消息 6 次，每次间隔 1 秒，全部都失败，最终该消息转发到死信队列中。
 
-此时，如果我们使用 [ActiveMQ Web Console](https://activemq.apache.org/web-console) 来查看 `"ActiveMQ.DLQ"` 的队列的消息：![ActiveMQ-队列消息](https://github.com/Gqyanxin/Gqyanxin.github.io/blob/main/assets/images/activemq/ActiveMQ-队列消息.png)
+此时，如果我们使用 [ActiveMQ Web Console](https://activemq.apache.org/web-console) 来查看 `"ActiveMQ.DLQ"` 的队列的消息：![ActiveMQ-队列消息](https://github.com/Gqyanxin/Gqyanxin.github.io/raw/main/assets/images/activemq/ActiveMQ-队列消息.png)
 
 - `"ActiveMQ.DLQ "` 队列中有 1 条消息，就是我们刚消费失败到达上限的该消息。
 
@@ -1668,4 +1668,4 @@ org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Liste
 
 最后弱弱的说一下，还是 RocketMQ 更加好用，哈哈哈哈~
 
-最后的最后，艿艿用一张图概括下，目前基于 [Spring-Messaging](https://github.com/spring-projects/spring-framework/tree/master/spring-messaging/src/main/java/org/springframework/messaging) 体系，访问常用消息中间件的图：![Spring-Messaging 生态](https://github.com/Gqyanxin/Gqyanxin.github.io/blob/main/assets/images/activemq/ActiveMQ-Spring-Messaging生态.png)
+最后的最后，艿艿用一张图概括下，目前基于 [Spring-Messaging](https://github.com/spring-projects/spring-framework/tree/master/spring-messaging/src/main/java/org/springframework/messaging) 体系，访问常用消息中间件的图：![Spring-Messaging 生态](https://github.com/Gqyanxin/Gqyanxin.github.io/raw/main/assets/images/activemq/ActiveMQ-Spring-Messaging生态.png)
